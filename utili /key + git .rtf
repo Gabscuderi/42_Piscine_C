@@ -1,0 +1,144 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Last login: Tue Oct 24 16:15:13 on ttys000\
+e3r4p8% ssh-keygen\
+Generating public/private rsa key pair.\
+Enter file in which to save the key (/Users/gscuderi/.ssh/id_rsa):\
+Enter passphrase (empty for no passphrase):\
+Enter same passphrase again:\
+Your identification has been saved in 	.\
+Your public key has been saved in 	.pub.\
+The key fingerprint is:\
+SHA256:PKWiSSCrZOigA/NpqEZIcu7AGdRwJG9hF/hh02l4uQ0 gscuderi@e3r4p8.42roma.it\
+The key's randomart image is:\
++---[RSA 2048]----+\
+| o+=.o+ o        |\
+| .=oo= E         |\
+|o .oo = + .      |\
+|o=o. . o +       |\
+|@=o . . S        |\
+|@B.o o . .       |\
+|*++ o            |\
+|.+.              |\
+|o                |\
++----[SHA256]-----+\
+e3r4p8% cat id_rsa.pub\
+cat: id_rsa.pub: No such file or directory\
+e3r4p8% cd .ssh\
+e3r4p8% cat id_rsa.pub\
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhNy0k8/XfD1fS6yDM8sA5epOVm8cl+0pmMkEqdSYyNkXMVNGNmlTVyDOWUehNKHH9gamr0Qaqwomq6ecfJMHtA8BH01qjyab4W82TZKDV83dsQSTjG0WdzsGe9VDG4QtAkgLeNzhQHT6PsuM1XkvAI5mAXrgMRIk9TSxUOcoQU62uQPJLHnV7CYeFL1MDFHZpRBn3w67Itm3WEQy82yhZrhZ6iT2gIHs0bK/QFbnazk7v0GXkq35oBI+aA+0lDWNgloF1rKgTm2DbRE3A0S5iOSeRMcNWepqbfFh5Qy5EpRLqnzq3yHLgn+zK91bDuyMCVik9HTrG1TlU5BY2f0Et gscuderi@e3r4p4.42roma.it\
+e3r4p8% cd\
+e3r4p8% pwd\
+/Users/gscuderi\
+e3r4p8% cd desktop\
+e3r4p8% cd ex03\
+e3r4p8% ls -la\
+total 8\
+drwxr-xr-x   3 gscuderi  2023_rome  102 Oct 24 17:10 .\
+drwxr-xr-x  12 gscuderi  2023_rome  408 Oct 24 17:05 ..\
+-rw-r--r--@  1 gscuderi  2023_rome  406 Oct 24 17:10 id_rsa_pub\
+e3r4p8% cd\
+e3r4p8% cd desktop\
+e3r4p8% git clone git@vogsphere.42roma.it:vogsphere/intra-uuid-928037c3-1827-448a-a05d-0b6bfa2f1ba7-5261450-gscuderi\
+Cloning into 'intra-uuid-928037c3-1827-448a-a05d-0b6bfa2f1ba7-5261450-gscuderi'...\
+warning: You appear to have cloned an empty repository.\
+e3r4p8%\
+e3r4p8% mv ex00 ex01 ex02 ex03 intra-uuid-928037c3-1827-448a-a05d-0b6bfa2f1ba7-5261450-gscuderi\
+e3r4p8% cd intra-uuid-928037c3-1827-448a-a05d-0b6bfa2f1ba7-5261450-gscuderi\
+e3r4p8% ls -la\
+total 0\
+drwxr-xr-x  7 gscuderi  2023_rome  238 Oct 24 17:12 .\
+drwxr-xr-x  9 gscuderi  2023_rome  306 Oct 24 17:12 ..\
+drwxr-xr-x  9 gscuderi  2023_rome  306 Oct 24 17:11 .git\
+drwxr-xr-x  3 gscuderi  2023_rome  102 Oct 23 13:09 ex00\
+drwxr-xr-x  4 gscuderi  2023_rome  136 Oct 24 10:28 ex01\
+drwxr-xr-x  3 gscuderi  2023_rome  102 Oct 24 16:59 ex02\
+drwxr-xr-x  3 gscuderi  2023_rome  102 Oct 24 17:10 ex03\
+e3r4p8% git status\
+On branch master\
+\
+No commits yet\
+\
+Untracked files:\
+  (use "git add <file>..." to include in what will be committed)\
+\
+	ex00/\
+	ex01/\
+	ex02/\
+	ex03/\
+\
+nothing added to commit but untracked files present (use "git add" to track)\
+e3r4p8% git add .\
+e3r4p8% git status\
+On branch master\
+\
+No commits yet\
+\
+Changes to be committed:\
+  (use "git rm --cached <file>..." to unstage)\
+\
+	new file:   ex00/z\
+	new file:   ex01/.DS_Store\
+	new file:   ex01/testShell00.tar\
+	new file:   ex02/exo2.tar\
+	new file:   ex03/id_rsa_pub\
+\
+e3r4p8% git commit -m "first commit"\
+[master (root-commit) c13ddaf] first commit\
+ Committer: Gabriele Scuderi <gscuderi@e3r4p8.42roma.it>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly. Run the\
+following command and follow the instructions in your editor to edit\
+your configuration file:\
+\
+    git config --global --edit\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 5 files changed, 2 insertions(+)\
+ create mode 100644 ex00/z\
+ create mode 100644 ex01/.DS_Store\
+ create mode 100644 ex01/testShell00.tar\
+ create mode 100644 ex02/exo2.tar\
+ create mode 100644 ex03/id_rsa_pub\
+e3r4p8% git push\
+Enumerating objects: 11, done.\
+Counting objects: 100% (11/11), done.\
+Delta compression using up to 6 threads\
+Compressing objects: 100% (7/7), done.\
+Writing objects: 100% (11/11), 1.44 KiB | 1.44 MiB/s, done.\
+Total 11 (delta 2), reused 0 (delta 0)\
+remote: . Processing 1 references\
+remote: Processed 1 references in total\
+To vogsphere.42roma.it:vogsphere/intra-uuid-928037c3-1827-448a-a05d-0b6bfa2f1ba7-5261450-gscuderi\
+ * [new branch]      master -> master\
+e3r4p8% pwd\
+/Users/gscuderi/desktop/intra-uuid-928037c3-1827-448a-a05d-0b6bfa2f1ba7-5261450-gscuderi\
+e3r4p8% git status\
+On branch master\
+Your branch is up to date with 'origin/master'.\
+\
+nothing to commit, working tree clean\
+e3r4p8% cd\
+e3r4p8% cd desktop\
+e3r4p8% mkdir ciao\
+e3r4p8% cd ciao\
+e3r4p8% pwd\
+/Users/gscuderi/desktop/ciao\
+e3r4p8% git clone git@vogsphere.42roma.it:vogsphere/intra-uuid-928037c3-1827-448a-a05d-0b6bfa2f1ba7-5261450-gscuderi\
+Cloning into 'intra-uuid-928037c3-1827-448a-a05d-0b6bfa2f1ba7-5261450-gscuderi'...\
+remote: Enumerating objects: 11, done.\
+remote: Counting objects: 100% (11/11), done.\
+remote: Compressing objects: 100% (7/7), done.\
+remote: Total 11 (delta 2), reused 0 (delta 0)\
+Receiving objects: 100% (11/11), done.\
+Resolving deltas: 100% (2/2), done.\
+e3r4p8%}

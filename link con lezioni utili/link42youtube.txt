@@ -1,0 +1,25 @@
+
+Struct in c
+	https://www.youtube.com/playlist?list=PLxeKVrYoZO6C_4IgEopWvNCYMI1Po3dVY
+
+Makefile 
+	https://www.youtube.com/watch?v=gtbmNNXcN3s
+
+Francesi:
+C-07
+	https://www.youtube.com/playlist?list=PLsDkzOnmud1gwmOIFgX0sAydZQTkwzGCT
+
+C-08
+	https://www.youtube.com/playlist?list=PLsDkzOnmud1indeDUfjKKAhobpvXf5WR2
+
+C-09
+	https://www.youtube.com/playlist?list=PLsDkzOnmud1gIUcdc3dLrIpNWLw7gu1nz
+
+C-11
+	https://www.youtube.com/playlist?list=PLsDkzOnmud1iIc-3CO2vgSNdUJw0l7W0x
+
+C-12
+	https://www.youtube.com/playlist?list=PLsDkzOnmud1iBSGJcUgoUOPPG01idZmnF
+
+C-13
+	https://www.youtube.com/playlist?list=PLsDkzOnmud1g8aSDHd4bDTdXfRNJmxGa4
